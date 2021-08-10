@@ -9,7 +9,7 @@ using BlogApp.Entity;
 
 namespace BlogApp.Data.Concrete.EfCore
 {
-    class BlogContext : DbContext
+    public class BlogContext : DbContext
     {
         public BlogContext(DbContextOptions<BlogContext> options) 
             : base(options)
